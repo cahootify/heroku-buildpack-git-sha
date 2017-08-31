@@ -6,7 +6,7 @@ application code can access.
 The first step is to add the Heroku [multi buildpack](https://github.com/heroku/heroku-buildpack-multi) to your app.
 Next, create a `.buildpacks` file in your app repo or edit an existing file. Add this to the file:
 
-	https://github.com/dive-networks/heroku-buildpack-git-sha.git
+	https://github.com/cahootify/heroku-buildpack-git-sha.git
 
 The Git sha will now be available to application code via the env var `GIT_SHA`.
 
